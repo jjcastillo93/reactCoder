@@ -1,0 +1,44 @@
+.contenedorCard{
+    border-radius: 20px;
+    margin: 50px;
+    padding-bottom: 10px;
+    border: none;
+    border-top: 2px solid transparent;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+}
+.contenedorCard:hover {
+    animation: girar 3s infinite;
+    box-shadow: 0px 2px 10px rgba(255, 0, 0, 0.7),
+                0px 2px 20px rgba(0, 255, 0, 0.7),
+                0px 2px 30px rgba(0, 0, 255, 0.7);
+  }
+  
+  @keyframes girar {
+    0% {
+      box-shadow: 0px 2px 10px rgba(255, 0, 0, 0.7);
+    }
+    33% {
+      box-shadow: 0px 2px 20px rgba(0, 255, 0, 0.7);
+    }
+    66% {
+      box-shadow: 0px 2px 30px rgba(0, 0, 255, 0.7);
+    }
+    100% {
+      box-shadow: 0px 2px 10px rgba(255, 0, 0, 0.7);
+    }
+  }
+
+.btnNavCard{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(0, 0, 3);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.btnNavCard:hover{
+    background-color: rgb(104, 0, 0);
+    border: none;
+}

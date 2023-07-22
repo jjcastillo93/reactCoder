@@ -1,0 +1,11 @@
+.item-detail-container {
+    position: relative; 
+    width: 400px;
+  }
+  
+  .contador-container {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+  }
+  
