@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Contador = ({ stock }) => {
+const ItemCount = ({ stock, onAdd, productName }) => {
   const [contador, setContador] = useState(0);
 
   const sumar = () => {
@@ -15,17 +15,26 @@ const Contador = ({ stock }) => {
     }
   };
 
+  const handleAdd = () => {
+    if (contador > 0) {
+      onAdd(contador);
+      setContador(0);
+      alert(`Agregaste ${contador} ${productName}`);
+    }
+  };
+
   return (
     <div>
-      <h2>Contador: {contador}</h2>
+      <h2>AGREGAR: {contador}</h2>
       <button onClick={sumar} disabled={contador === stock}>
-        Sumar
+        +
       </button>
       <button onClick={restar} disabled={contador === 0}>
-        Restar
+        -
       </button>
+      <button onClick={handleAdd}>Agregar</button> {}
     </div>
   );
 };
 
-export default Contador;
+export default ItemCount;

@@ -1,13 +1,23 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping }  from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { useContext } from "react";
+import { CartContext } from "../../App";
+import { Link } from "react-router-dom";
+import "./CartWiget.css";
 
-function CartWiget() {
+function CartWidget() {
+  const { cart } = useContext(CartContext);
+
+  const totalQuantity = cart.reduce((total, item) => total + item.quantity, 0);
+
   return (
-    <div>
-        <FontAwesomeIcon icon={faCartShopping} />
-        <span>0</span>
-    </div>
-  )
+    <Link to={"/cart"} className="cart-widget-container">
+      <div className="cart-widget">
+        <FontAwesomeIcon icon={faCartShopping} className="cart-icon" />
+        <span className="cart-quantity">{totalQuantity}</span>
+      </div>
+    </Link>
+  );
 }
 
-export default CartWiget
+export default CartWidget;
