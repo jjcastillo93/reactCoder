@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Bienvenidos a mi Repositorio de Proyecto en React: "Tu Carro Ya"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio está dedicado al cumplimiento del proyecto del curso de Codehouse, desarrollado con React. Aquí encontrarás el código fuente y los recursos relacionados con esta aplicación.
 
-## Available Scripts
+## ¿Qué es este proyecto?
 
-In the project directory, you can run:
+Este proyecto se enfoca en la venta de autos y piezas relacionadas, permitiéndote segmentar los productos según su categoría, seleccionarlos en función de su stock y completar la compra, recibiendo un ID único. Una vez que se reciba este ID, el carrito de compras se vaciará automáticamente utilizando la potencia de React como plataforma de desarrollo.
 
-### `npm start`
+Adicionalmente, es importante destacar que la sección de contacto de la página tiene como objetivo proporcionar una experiencia directa para probar el manejo de errores. En caso de que la navegación resulte en un error 404, esto nos ayudará a evaluar y mejorar la experiencia del usuario.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Acceso al Repositorio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Si deseas acceder al código fuente y explorar este proyecto, sigue estos pasos:
 
-### `npm test`
+1. **Clonar el repositorio:** Abre tu terminal y ejecuta el siguiente comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/TuUsuario/TuRepositorio.git
+   ```
 
-### `npm run build`
+   Esto creará una copia local de los archivos en tu máquina.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Instalar dependencias:** Navega al directorio del proyecto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd reactCoder
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Luego, instala las dependencias utilizando npm (Node Package Manager):
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Iniciar la aplicación:** Una vez que las dependencias estén instaladas, puedes iniciar la aplicación con el siguiente comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Esto iniciará un servidor de desarrollo y abrirá la aplicación en tu navegador.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Información Adicional
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Estudiante: Juan Castillo
+- Comisión: react-43305
+- Enlace al proyecto: [https://react-coder-six.vercel.app/](https://react-coder-six.vercel.app/)
+- Tecnologías utilizadas: Firebase v10.1.0, React Router DOM v6.14.2, estilos CSS y React.
+- 
+## Por ultimo
+Quiero expresar mi agradecimiento al profesor y a los tutores por el tiempo que invirtieron en nosotros y por la dedicación que demostraron durante la cursada. Muchas gracias por todo.
