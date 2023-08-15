@@ -46,6 +46,6 @@ Si deseas acceder al código fuente y explorar este proyecto, sigue estos pasos:
 - Comisión: react-43305
 - Enlace al proyecto: [https://react-coder-six.vercel.app/](https://react-coder-six.vercel.app/)
 - Tecnologías utilizadas: Firebase v10.1.0, React Router DOM v6.14.2, estilos CSS y React.
-- 
+  
 ## Por ultimo
 Quiero expresar mi agradecimiento al profesor y a los tutores por el tiempo que invirtieron en nosotros y por la dedicación que demostraron durante la cursada. Muchas gracias por todo.
